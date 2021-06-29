@@ -41,7 +41,7 @@
   <div class="col-12 col-sm-auto people-person">
     {{ $src := "" }}
     {{ if $avatar }}
-      {{ $avatar_image := $avatar.Resize "x300"}}
+      {{ $avatar_image := $avatar.Resize "300x200"}}
       {{ $src = $avatar_image.RelPermalink }}
     {{ end }}
     {{ if $src }}
